@@ -1,0 +1,39 @@
+baseURL: https://ibrahim-alsukarry.github.io/
+languageCode: en-us
+title: Ibrahim Alsukarry
+theme: "PaperMod"
+
+params:
+  ShowReadingtime: true
+  ShowShareButtons: true
+  disableThemeToggle: true
+  profileMode:
+    enabled: true
+    title: "Ibrahim Alsukarry"
+    subtitle: "Computer Engineering student | DevOps & Cloud"
+    imageUrl: ""
+    buttons:
+      - name: Posts
+        url: posts
+      - name: About
+        url: about
+  socialIcons:
+    - name: github
+      url: "https://github.com/ibrahim-alsukarry"
+    - name: linkedin
+      url: "https://linkedin.com/in/ibrahim-alsukarry"
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 30
