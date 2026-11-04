@@ -1,6 +1,6 @@
 ---
 date: '2026-11-04T19:49:54+03:00'
-draft: false
+draft: true
 title: 'first pipeline workflow?'
 ---
 
